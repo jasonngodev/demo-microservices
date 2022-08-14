@@ -57,7 +57,7 @@ try
 
     app.UseAuthorization();
 
-    app.MapControllers();
+    // app.MapControllers();
     
     app.MapDefaultControllerRoute();
 
