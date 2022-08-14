@@ -1,0 +1,12 @@
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/bin/Debug/net6.0/Common.Logging.deps.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/bin/Debug/net6.0/Common.Logging.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/bin/Debug/net6.0/Common.Logging.pdb
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.csproj.AssemblyReference.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.AssemblyInfoInputs.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.AssemblyInfo.cs
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.csproj.CoreCompileInputs.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/refint/Common.Logging.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/Common.Logging.pdb
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/obj/Debug/net6.0/ref/Common.Logging.dll

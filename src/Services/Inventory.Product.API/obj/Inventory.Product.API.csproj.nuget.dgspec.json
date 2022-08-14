@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Inventory.Product.API/Inventory.Product.API.csproj": {}
+  },
+  "projects": {
+    "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/Common.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/Common.Logging.csproj",
+        "projectName": "Common.Logging",
+        "projectPath": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/Common.Logging.csproj",
+        "packagesPath": "/Users/jasonngo/.nuget/packages/",
+        "outputPath": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jasonngo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Formatting.Compact": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Inventory.Product.API/Inventory.Product.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Inventory.Product.API/Inventory.Product.API.csproj",
+        "projectName": "Inventory.Product.API",
+        "projectPath": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Inventory.Product.API/Inventory.Product.API.csproj",
+        "packagesPath": "/Users/jasonngo/.nuget/packages/",
+        "outputPath": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Inventory.Product.API/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jasonngo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/Common.Logging.csproj": {
+                "projectPath": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Common.Logging/Common.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

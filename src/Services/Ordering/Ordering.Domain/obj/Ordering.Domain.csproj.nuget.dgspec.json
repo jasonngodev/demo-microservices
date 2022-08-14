@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj": {}
+  },
+  "projects": {
+    "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Contracts/Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Contracts/Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Contracts/Contracts.csproj",
+        "packagesPath": "/Users/jasonngo/.nuget/packages/",
+        "outputPath": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jasonngo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Shared/Shared.csproj": {
+                "projectPath": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Shared/Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Shared/Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Shared/Shared.csproj",
+        "packagesPath": "/Users/jasonngo/.nuget/packages/",
+        "outputPath": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jasonngo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj",
+        "projectName": "Ordering.Domain",
+        "projectPath": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj",
+        "packagesPath": "/Users/jasonngo/.nuget/packages/",
+        "outputPath": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jasonngo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Contracts/Contracts.csproj": {
+                "projectPath": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/BuildingBlocks/Contracts/Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

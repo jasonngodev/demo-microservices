@@ -1,0 +1,17 @@
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/bin/Debug/net6.0/Ordering.Subscriber
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/bin/Debug/net6.0/Ordering.Subscriber.deps.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/bin/Debug/net6.0/Ordering.Subscriber.runtimeconfig.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/bin/Debug/net6.0/Ordering.Subscriber.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/bin/Debug/net6.0/Ordering.Subscriber.pdb
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/bin/Debug/net6.0/RabbitMQ.Client.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/obj/Debug/net6.0/Ordering.Subscriber.csproj.AssemblyReference.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/obj/Debug/net6.0/Ordering.Subscriber.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/obj/Debug/net6.0/Ordering.Subscriber.AssemblyInfoInputs.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/obj/Debug/net6.0/Ordering.Subscriber.AssemblyInfo.cs
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/obj/Debug/net6.0/Ordering.Subscriber.csproj.CoreCompileInputs.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/obj/Debug/net6.0/Ordering.Subscriber.csproj.CopyComplete
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/obj/Debug/net6.0/Ordering.Subscriber.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/obj/Debug/net6.0/refint/Ordering.Subscriber.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/obj/Debug/net6.0/Ordering.Subscriber.pdb
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/obj/Debug/net6.0/Ordering.Subscriber.genruntimeconfig.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Subscriber/obj/Debug/net6.0/ref/Ordering.Subscriber.dll

@@ -1,0 +1,17 @@
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/bin/Debug/net6.0/Ordering.Domain.deps.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/bin/Debug/net6.0/Ordering.Domain.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/bin/Debug/net6.0/Ordering.Domain.pdb
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.csproj.AssemblyReference.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.AssemblyInfoInputs.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.AssemblyInfo.cs
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.csproj.CoreCompileInputs.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/refint/Ordering.Domain.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.pdb
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/ref/Ordering.Domain.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/bin/Debug/net6.0/Contracts.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/bin/Debug/net6.0/Contracts.pdb
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/obj/Debug/net6.0/Ordering.Domain.csproj.CopyComplete
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/bin/Debug/net6.0/Shared.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Ordering/Ordering.Domain/bin/Debug/net6.0/Shared.pdb
