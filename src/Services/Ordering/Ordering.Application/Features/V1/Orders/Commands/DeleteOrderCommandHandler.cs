@@ -7,7 +7,7 @@ using Shared.SeedWork;
 
 namespace Ordering.Application.Features.V1.Orders;
 
-public class DeleteOrderCommandHandler : IRequestHandler<DeleteOrderCommand, ApiResult<bool>>
+public class DeleteOrderCommandHandler : IRequestHandler<DeleteOrderCommand>
 {
     // private readonly IMapper _mapper;
     private readonly IOrderRepository _repository;
@@ -42,7 +42,7 @@ public class DeleteOrderCommandHandler : IRequestHandler<DeleteOrderCommand, Api
     //     // return Unit.Value;
     //     return new ApiErrorResult<bool>("No record");
     // }
-    public async Task<ApiResult<bool>> Handle(DeleteOrderCommand request, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(DeleteOrderCommand request, CancellationToken cancellationToken)
     {
         var orderEntity = await _repository.GetByIdAsync(request.Id);
         if (orderEntity == null) throw new NotFoundException(nameof(Order), request.Id);
@@ -52,6 +52,6 @@ public class DeleteOrderCommandHandler : IRequestHandler<DeleteOrderCommand, Api
 
         _logger.Information($"Order {orderEntity.Id} was successfully deleted.");
 
-        return new ApiErrorResult<bool>("No record");
+        return Unit.Value;
     }
 }

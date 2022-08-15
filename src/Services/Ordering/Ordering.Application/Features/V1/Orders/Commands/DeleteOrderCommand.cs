@@ -3,7 +3,7 @@ using Shared.SeedWork;
 
 namespace Ordering.Application.Features.V1.Orders;
 
-public class DeleteOrderCommand:IRequest<ApiResult<bool>>
+public class DeleteOrderCommand:IRequest
 {
     public long Id { get; private set; }
 

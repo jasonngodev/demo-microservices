@@ -77,3 +77,5 @@
 /Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Basket.API/bin/Debug/net6.0/EventBus.Messages.pdb
 /Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Basket.API/bin/Debug/net6.0/Shared.pdb
 /Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Basket.API/bin/Debug/net6.0/FluentValidation.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Basket.API/bin/Debug/net6.0/MediatR.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Basket.API/bin/Debug/net6.0/MediatR.Contracts.dll

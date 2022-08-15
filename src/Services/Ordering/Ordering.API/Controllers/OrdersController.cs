@@ -61,14 +61,22 @@ public class OrdersController : ControllerBase
         return Ok(result);
     }
     
+    // [HttpDelete("{id:long}",Name = RouteNames.DeleteOrder)]
+    // // [ProducesResponseType(typeof(NoContentResult), (int)HttpStatusCode.NoContent)]
+    // [ProducesResponseType(typeof(ApiResult<bool>), (int)HttpStatusCode.OK)]
+    // public async Task<ActionResult> DeleteOrder([Required]long id)
+    // {
+    //     var command = new DeleteOrderCommand(id);
+    //     var result = await _mediator.Send(command);
+    //     return Ok(result);
+    // }
     [HttpDelete("{id:long}",Name = RouteNames.DeleteOrder)]
-    // [ProducesResponseType(typeof(NoContentResult), (int)HttpStatusCode.NoContent)]
-    [ProducesResponseType(typeof(ApiResult<bool>), (int)HttpStatusCode.OK)]
+    [ProducesResponseType(typeof(NoContentResult), (int)HttpStatusCode.NoContent)]
     public async Task<ActionResult> DeleteOrder([Required]long id)
     {
         var command = new DeleteOrderCommand(id);
-        var result = await _mediator.Send(command);
-        return Ok(result);
+        await _mediator.Send(command);
+        return NoContent();
     }
 
     [HttpGet("test-email")]
