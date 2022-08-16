@@ -12,7 +12,6 @@
           "Common.Logging": "1.0.0",
           "Contracts": "1.0.0",
           "Infrastructure": "1.0.0",
-          "MongoDB.Driver": "2.17.1",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -592,6 +591,7 @@
         "dependencies": {
           "MediatR": "10.0.1",
           "Microsoft.EntityFrameworkCore": "6.0.6",
+          "MongoDB.Driver": "2.17.1",
           "Shared": "1.0.0"
         },
         "runtime": {
@@ -605,6 +605,7 @@
           "Contracts": "1.0.0",
           "FluentValidation": "11.2.0",
           "MailKit": "3.3.0",
+          "MongoDB.Driver": "2.17.1",
           "Newtonsoft.Json": "13.0.1",
           "RabbitMQ.Client": "6.4.0"
         },

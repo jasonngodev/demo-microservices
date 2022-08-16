@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1KPab4ugSwQO3td08PtG7miEGeDJGzAve+jwFqu8sS2m0dIUu1ln6icHn58HlW6MBvCv1SGXwEzUcouf8Y1apg==",
+  "dgSpecHash": "8DzDf/gASlhJTMdQOAfjnW71Gr8TSdQy4ltd3DChQ0PxYxvdjPndCG92WoAcg04rweTde8Xjxkh7tJzOC2yPNg==",
   "success": true,
   "projectFilePath": "/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/demo/demo-microservices/src/Services/Inventory.Product.API/Inventory.Product.API.csproj",
   "expectedPackageFiles": [

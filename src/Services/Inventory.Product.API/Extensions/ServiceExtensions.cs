@@ -1,5 +1,8 @@
 using Infrastructure.Extensions;
+using Inventory.Product.API.Services;
+using Inventory.Product.API.Services.Interfaces;
 using MongoDB.Driver;
+using Shared.Configurations;
 
 namespace Inventory.Product.API.Extensions;
 
@@ -7,8 +10,8 @@ public static class ServiceExtensions
 {
     internal static IServiceCollection AddConfigurationSettings(this IServiceCollection services, IConfiguration configuration)
     {
-        var databaseSettings = configuration.GetSection(nameof(DatabaseSettings))
-            .Get<DatabaseSettings>();
+        var databaseSettings = configuration.GetSection(nameof(MongoDbSettings))
+            .Get<MongoDbSettings>();
         services.AddSingleton(databaseSettings);
         
         return services;
@@ -16,7 +19,7 @@ public static class ServiceExtensions
 
     private static string getMongoConnectionString(this IServiceCollection services)
     {
-        var settings = services.GetOptions<DatabaseSettings>(nameof(DatabaseSettings));
+        var settings = services.GetOptions<MongoDbSettings>(nameof(MongoDbSettings));
         if (settings == null || string.IsNullOrEmpty(settings.ConnectionString))
             throw new ArgumentNullException("DatabaseSettings is not configured");
         
@@ -36,5 +39,7 @@ public static class ServiceExtensions
     public static void AddInfrastructureServices(this IServiceCollection services)
     {
         services.AddAutoMapper(cfg=>cfg.AddProfile(new MappingProfile()));
+
+        services.AddScoped<IInventoryService, InventoryService>();
     }
 }

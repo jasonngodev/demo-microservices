@@ -121,6 +121,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
             }
           },
           "imports": [
@@ -197,6 +201,10 @@
             "MailKit": {
               "target": "Package",
               "version": "[3.3.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

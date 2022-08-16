@@ -1,12 +1,18 @@
+using Shared.Enum.Inventory;
+
 namespace Shared.DTOs.Inventory;
 
 public class PurchaseProductDto
 {
-    public string ItemNo { get; set; }
+    public EDocumentType DocumentType => EDocumentType.Purchase;//default neu truyen thi get set
+    private string _itemNo { get; set; }
+
+    public string GetItemNo() => _itemNo;
+
+    public void SetItemNo(string itemNo)
+    {
+        _itemNo = itemNo;
+    }
     
-    public string DocumentNo { get; set; }//PO-2022-07-xxxx
-    
-    public string ExternalDocumentNo { get; set; }
-    
-    public  int Quantity { get; set; }
+    public int Quantity { get; set; }
 }

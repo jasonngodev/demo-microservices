@@ -9,7 +9,7 @@ services:
       ACCEPT_EULA: "Y"
     restart: always
     volumes:
-      - sqlserver_data:/var/lib/sqlserver/data
+      - sqlserver_data:/var/opt/mssql
     ports:
       - "1435:1433"
         

@@ -1,9 +1,11 @@
-using Inventory.Product.API.Entities.Abstraction;
+using Contracts.Domains;
+using Infrastructure.Extensions;
 using MongoDB.Bson.Serialization.Attributes;
 using Shared.Enum.Inventory;
 
 namespace Inventory.Product.API.Entities;
 
+[BsonCollection("InventoryEntries")]
 public class InventoryEntry : MongoEntity
 {
     public InventoryEntry()
@@ -19,14 +21,13 @@ public class InventoryEntry : MongoEntity
     public EDocumentType DocumentType { get; set; }
     
     [BsonElement("documentNo")]
-    public string DocumentNo { get; set; }
+    public string DocumentNo { get; set; } = Guid.NewGuid().ToString();
     
     [BsonElement("itemNo")]
     public string ItemNo { get; set; }
     
     [BsonElement("quantity")]
     public int Quantity { get; set; }
-    
-    [BsonElement("externalDocumentNo")]
-    public string ExternalDocumentNo { get; set; }
+
+    [BsonElement("externalDocumentNo")] public string ExternalDocumentNo { get; set; } = Guid.NewGuid().ToString();
 }
